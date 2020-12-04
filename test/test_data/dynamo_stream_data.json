@@ -1,0 +1,113 @@
+{
+  "Records": [
+    {
+      "eventID": "7de3041dd709b024af6f29e4fa13d34c",
+      "eventName": "INSERT",
+      "eventVersion": "1.1",
+      "eventSource": "aws:dynamodb",
+      "awsRegion": "us-west-2",
+      "dynamodb": {
+        "ApproximateCreationDateTime": 1479499740,
+        "Keys": {
+          "Timestamp": {
+            "S": "2016-11-18:12:09:36"
+          },
+          "Username": {
+            "S": "John Doe"
+          }
+        },
+        "NewImage": {
+          "autoAllocationEnabled": {
+            "BOOL": false
+          },
+          "autoAllocationGlobal": {
+            "BOOL": false
+          },
+          "autoAllocationTrafficPercent": {
+            "N": "100"
+          },
+          "cells": {
+            "M": {
+              "Control": {
+                "N": "50"
+              },
+              "Treatment": {
+                "N": 50
+              }
+            }
+          },
+          "changes": {
+            "M": {
+              "2020-06-16T13:25:25.254Z": {
+                "M": {
+                  "author": {
+                    "S": "admin"
+                  },
+                  "fieldChanges": {
+                    "S": "{\"1\":{\"lst\":[\"rec\",13,{\"1\":{\"str\":\"name\"},\"3\":{\"str\":\"AUTH3404_2SV_with_TOTP_TEST1\"}},{\"1\":{\"str\":\"status\"},\"3\":{\"str\":\"Dormant\"}},{\"1\":{\"str\":\"autoAllocationEnabled\"},\"3\":{\"str\":\"false\"}},{\"1\":{\"str\":\"autoAllocationGlobal\"},\"3\":{\"str\":\"false\"}},{\"1\":{\"str\":\"autoAllocationTrafficPercent\"},\"3\":{\"str\":\"100\"}},{\"1\":{\"str\":\"autoAllocationTotalThreshold\"},\"3\":{\"str\":\"0\"}},{\"1\":{\"str\":\"forUsers\"},\"3\":{\"str\":\"true\"}},{\"1\":{\"str\":\"forVisitors\"},\"3\":{\"str\":\"false\"}},{\"1\":{\"str\":\"cells\"},\"3\":{\"str\":\"[TCell(name:Control, allocationPercent:50), TCell(name:Treatment, allocationPercent:50)]\"}},{\"1\":{\"str\":\"defaultCellName\"},\"3\":{\"str\":\"Control\"}},{\"1\":{\"str\":\"isDefaultForced\"},\"3\":{\"str\":\"false\"}},{\"1\":{\"str\":\"forOrganizations\"},\"3\":{\"str\":\"false\"}},{\"1\":{\"str\":\"jiraId\"},\"3\":{\"str\":\"N/A\"}}]}}"
+                  }
+                }
+              },
+              "2020-06-16T13:26:29.343Z": {
+                "M": {
+                  "author": {
+                    "S": "admin"
+                  },
+                  "fieldChanges": {
+                    "S": "{\"1\":{\"lst\":[\"rec\",1,{\"1\":{\"str\":\"status\"},\"2\":{\"str\":\"Dormant\"},\"3\":{\"str\":\"Live\"}}]}}"
+                  }
+                }
+              }
+            }
+          },
+          "creationTime": {
+            "S": "2020-06-16T13:25:25.254Z"
+          },
+          "defaultCellName": {
+            "S": "Control"
+          },
+          "defaultForced": {
+            "S": "false"
+          },
+          "description": {
+            "S": "N/A"
+          },
+          "forOrganizations": {
+            "BOOL": false
+          },
+          "forUsers": {
+            "BOOL": true
+          },
+          "forVisitors": {
+            "BOOL": false
+          },
+          "jiraId": {
+            "S": "N/A"
+          },
+          "lastUpdateTime": {
+            "S": "2020-06-16T13:26:29.343Z"
+          },
+          "lowerCaseDescription": {
+            "S": "n/a"
+          },
+          "lowerCaseTestName": {
+            "S": "auth3404_2sv_with_totp_test1"
+          },
+          "testName": {
+            "S": "AUTH3404_2SV_with_TOTP_TEST1"
+          },
+          "testOwner": {
+            "S": "N/A"
+          },
+          "testStatus": {
+            "N": "2"
+          }
+        },
+        "SequenceNumber": "13021600000000001596893679",
+        "SizeBytes": 1120,
+        "StreamViewType": "NEW_AND_OLD_IMAGES"
+      },
+      "eventSourceARN": "arn:aws:dynamodb:region_name:account_ID:table/stream/2019-11-10T18:39:44.838"
+    }
+  ]
+}
